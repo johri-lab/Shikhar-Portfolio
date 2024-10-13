@@ -1,92 +1,40 @@
 export const techStack = [
-  {
-    name: 'html',
-  },
-  {
-    name: 'css',
-  },
-  {
-    name: 'nodejs',
-  },
-  {
-    name: 'express',
-  },
-  {
-    name: 'flask',
-  },
-  {
-    name: 'react',
-  },
-  {
-    name: 'mongodb',
-  },
-  {
-    name: 'aws',
-  },
-  {
-    name: 'javascript',
-  },
-  {
-    name: 'typescript',
-  },
-  {
-    name: 'tailwind',
-  },
-  {
-    name: 'python',
-  },
-  {
-    name: 'docker',
-  },
-  {
-    name: 'kubernetes',
-  },
-  {
-    name: 'figma',
-  },
-  {
-    name: 'cpp',
-  },
+  { name: 'python' },
+  { name: 'mysql' },
+  { name: 'aws' },
+  { name: 'gcp' },
+  { name: 'pytorch' },
+  { name: 'tensorflow' },
+  { name: 'docker' },
+  { name: 'kubernetes' },
+  { name: 'bash' },
+  { name: 'cpp' },
+  { name: 'opencv' },
+  { name: 'anaconda' },
+  { name: 'autocad' },
+  { name: 'git' },
 ];
 
-export const queryFuel = [
-  {
-    name: 'next',
-  },
-  {
-    name: 'nodejs',
-  },
-  {
-    name: 'express',
-  },
-  {
-    name: 'mongodb',
-  },
+export const mlTrading = [
+  { name: 'python' },
+  { name: 'tensorflow' },
+  { name: 'jupyter' },
 ];
 
-export const speakSphere = [
-  {
-    name: 'next',
-  },
-  {
-    name: 'nodejs',
-  },
-  {
-    name: 'mongodb',
-  },
-  {
-    name: 'typescript',
-  },
-  {
-    name: 'tailwind',
-  },
+export const genAIJudge = [
+  { name: 'python' },
+  { name: 'gpt' },
+  { name: 'ai' },
 ];
 
-export const roommateTinder = [
-  {
-    name: 'next',
-  },
-  {
-    name: 'aws',
-  },
+export const mtaCommutePal = [
+  { name: 'jupyter' },
+  { name: 'python' },
+  { name: 'data science' },
+];
+
+export const fraudDetection = [
+  { name: 'python' },
+  { name: 'tensorflow' },
+  { name: 'automl' },
 ];

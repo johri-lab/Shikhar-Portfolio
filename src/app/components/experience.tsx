@@ -8,10 +8,11 @@ const Experience = () => {
       <h1 className="uppercase text-xl font-bold py-10 text-blue-500">
         Experience
       </h1>
-      <ol className="relative border-s border-gray-200 ">
+      <ol className="relative border-s border-gray-200">
         {experienceData.map((experience: any) => (
           <ExperienceCard
             key={experience.companyName}
+            logo={experience.logo} // New prop for company logo
             timeline={experience.timeline}
             companyName={experience.companyName}
             role={experience.role}

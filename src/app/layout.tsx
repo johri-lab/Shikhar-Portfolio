@@ -5,8 +5,8 @@ import './globals.css';
 const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Shivam Shekhar',
-  description: 'Portfolio Website of Shivam Shekhar',
+  title: 'Shikhar Johri',
+  description: 'Portfolio Website of Shikhar Johri',
 };
 
 export default function RootLayout({

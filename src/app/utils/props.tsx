@@ -7,8 +7,11 @@ export type ProjectCardProps = {
 };
 
 export type ExperienceCardProps = {
+  logo?: string;
   timeline: string;
   companyName: string;
   role: string;
   description: JSX.Element;
+  subRole?: string;
+  subDescription?: JSX.Element;
 };

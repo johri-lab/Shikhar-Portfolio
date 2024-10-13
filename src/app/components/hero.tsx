@@ -2,7 +2,7 @@
 import React from 'react';
 import { CiLinkedin } from 'react-icons/ci';
 import { FiGithub } from 'react-icons/fi';
-import man from '../utils/images/man.jpg';
+import man from '../utils/images/man.png';
 import Image from 'next/image';
 import { techStack } from '../utils/constants/hero.const';
 import { Tilt } from 'react-tilt';
@@ -47,8 +47,8 @@ const Hero = () => {
             <Image
               className="rounded-2xl"
               src={man}
-              height={300}
-              width={300}
+              height={400}
+              width={400}
               alt={'My Photo'}
             />
           </Tilt>

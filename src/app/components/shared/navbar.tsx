@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between px-4 lg:px-12 py-6 items-center shadow-xl">
-      <div className="font-extrabold text-xl">Shivam.dev</div>
+      <div className="font-extrabold text-xl">Shikhar.dev</div>
       <div className="lg:hidden">
         <button
           onClick={toggleMobileMenu}

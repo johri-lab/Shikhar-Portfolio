@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-[#2D2E32] h-32 flex justify-around text-white items-center">
       <div className="font-bold text-xl">
-        Built with ❤️ & ☕️ by Shivam Shekhar{' '}
+        Built with ❤️ & ☕️ by Shikhar Johri{' '}
       </div>
       <div className="flex justify-center items-center">
         <a target="_blank" href={footerData.linkedIn} className="text-3xl px-2">

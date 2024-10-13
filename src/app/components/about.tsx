@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import setup from '../utils/images/coding.avif';
+import setup from '../utils/images/coding.webp';
 import { aboutData } from '../utils/constants/data';
 
 const About = () => {
