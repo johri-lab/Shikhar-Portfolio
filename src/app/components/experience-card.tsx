@@ -16,8 +16,8 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
   return (
     <li className="mb-10 ms-4">
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
-      <div className="flex items-center gap-4">
-        {logo && (
+      <time className="block my-1 text-xs md:text-sm font-normal leading-none text-gray-400">
+      {logo && (
           <Image
             src={logo}
             alt={`${companyName} logo`}
@@ -26,21 +26,15 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
             className="object-contain"
           />
         )}
-        <div>
-          <h3 className="text-lg font-semibold text-gray-900">{companyName}</h3>
-          <h4 className="text-gray-600 font-medium">{role}</h4>
-        </div>
-      </div>
-      <time className="my-1 text-sm font-normal leading-none text-gray-400">
         {timeline}
       </time>
-      <ul>{description}</ul>
-      {subRole && (
-        <div className="mt-4">
-          <h4 className="text-gray-600 font-medium">{subRole}</h4>
-          <ul>{subDescription}</ul>
-        </div>
-      )}
+      <h3 className="text-base md:text-lg font-semibold text-gray-900">
+        {companyName}
+      </h3>
+      <h4 className="text-sm md:text-base text-gray-600 font-medium">{role}</h4>
+      <ul className="list-inside text-sm md:text-base text-gray-700">
+        {description}
+      </ul>
     </li>
   );
 };

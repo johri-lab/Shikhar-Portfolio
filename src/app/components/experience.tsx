@@ -4,8 +4,8 @@ import { experienceData } from '../utils/constants/data';
 
 const Experience = () => {
   return (
-    <div id="experience" className="ml-52 w-3/4">
-      <h1 className="uppercase text-xl font-bold py-10 text-blue-500">
+    <div id="experience" className="px-5 lg:ml-52 lg:w-3/4 w-full">
+      <h1 className="uppercase text-lg md:text-xl font-bold py-10 text-center lg:text-left text-blue-500">
         Experience
       </h1>
       <ol className="relative border-s border-gray-200">
