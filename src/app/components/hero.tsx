@@ -47,7 +47,7 @@ const Hero = () => {
             <Image
               className="rounded-2xl"
               src={man}
-              height={500}
+              height={400}
               width={400}
               alt={'My Photo'}
             />
