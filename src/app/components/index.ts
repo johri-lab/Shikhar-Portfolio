@@ -5,3 +5,4 @@ export { default as Contact } from './contact';
 export { default as ProjectCard } from './project-card';
 export { default as Experience } from './experience';
 export { default as ExperienceCard } from './experience-card';
+export { default as Publications } from './publications';

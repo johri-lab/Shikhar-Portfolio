@@ -74,6 +74,12 @@ const Navbar = () => {
               Experience
             </Link>
             <Link
+              href="#publications"
+              className="font-bold hover:text-blue cursor-pointer"
+              onClick={closeMobileMenu}>
+              Publications
+            </Link>
+            <Link
               href="#projects"
               className="font-bold hover:text-blue cursor-pointer"
               onClick={closeMobileMenu}>
@@ -101,6 +107,11 @@ const Navbar = () => {
           href="#experience"
           className="font-bold hover:text-blue cursor-pointer">
           Experience
+        </Link>
+        <Link
+          href="#publications"
+          className="font-bold hover:text-blue cursor-pointer">
+          Publications
         </Link>
         <Link
           href="#projects"

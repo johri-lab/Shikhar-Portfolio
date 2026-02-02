@@ -11,15 +11,15 @@ const Experience = () => {
       <ol className="relative border-s border-gray-200">
         {experienceData.map((experience: any) => (
           <ExperienceCard
-            key={experience.companyName}
+            key={`${experience.companyName ?? experience.role}-${experience.timeline}`}
             logo={experience.logo} // New prop for company logo
             timeline={experience.timeline}
             companyName={experience.companyName}
             role={experience.role}
             description={
               <ul>
-                {experience.description.map((desc: any) => (
-                  <li key={desc} className="list-disc ml-2 my-2">
+                {experience.description.map((desc: any, index: number) => (
+                  <li key={`${experience.timeline}-${index}`} className="list-disc ml-2 my-2">
                     {desc}
                   </li>
                 ))}

@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Hero, Projects } from './components';
+import { About, Contact, Experience, Hero, Projects, Publications } from './components';
 import { Footer, Navbar, ScrollComponent } from './components/shared';
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
       <Hero />
       <About />
       <Experience />
+      <Publications />
       <Projects />
       <Contact />
       <Footer />
