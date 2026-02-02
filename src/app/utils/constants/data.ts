@@ -16,9 +16,9 @@ export const introData = {
   sequence: [
     '👨‍💻 Machine Learning Engineer',
     2000,
-    '👨‍💻 Recommender Systems',
+    '👨‍💻 Data Scientist',
     2000,
-    '👨‍💻 LLM / Agentic AI',
+    '👨‍💻 LLM / Agentic AI Engineer',
     2000,
   ],
   gitHubUsername: 'johri-lab',
