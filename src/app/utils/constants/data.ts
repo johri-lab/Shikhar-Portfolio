@@ -172,7 +172,7 @@ export const projectData = [
 
 export const contactData = {
   place: 'New York, NY',
-  email: 'sj3327@columbia.edu',
+  email: 'johrishikhar123@gmail.com',
 };
 
 export const footerData = {
